@@ -24,11 +24,9 @@ This project is a back end for an e-commerce website that utilizes the latest te
 
 3. Set up your PostgreSQL database and add the database credentials to a `.env` file in the root of your project:
    ```bash
-   DB_NAME=your_db_name
-   DB_USER=your_db_user
-   DB_PASSWORD=your_db_password
-   DB_HOST=localhost
-   DB_PORT=5432
+DB_NAME='ecommerce_db'
+DB_USER='postgres'
+DB_PASSWORD='123'
    ```
 
 4. Create the database schema by executing the `schema.sql` file using PostgreSQL commands:
